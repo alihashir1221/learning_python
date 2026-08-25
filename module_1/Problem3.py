@@ -1,0 +1,12 @@
+# wap a python program to print the contents of a directory using the os module 
+import os
+
+# Specify the directory path
+directory = "/"
+
+# Print the contents of the directory
+contents = os.listdir(directory)
+
+print("Contents of the directory:")
+for item in contents:
+    print(item)
