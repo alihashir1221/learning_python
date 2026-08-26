@@ -34,11 +34,15 @@ bool = True
 
 #BINARY TYPES
 #bytes
-bytes = b"Hello"
+bytes = "Hello"
 #bytearray
 bytearray = bytearray(5)
 #memoryview
 memoryview = memoryview(bytes(5))
+
 #NONE TYPE
 #None
 none = None
+
+#completed
+print(5+5)
