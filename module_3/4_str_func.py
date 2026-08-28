@@ -15,3 +15,9 @@ print(name.endswith("li ")) #even and empty space matters
 #string.count() method is used to count the number of times a character occured 
 name = "ALIHASHIR"
 print(name.count("I"))
+
+#string.capitalize() method is used to capitalize the first character of a string and make all other characters lowercase.
+name = "aLI HASHIR"
+print(name.capitalize())
+
+#
