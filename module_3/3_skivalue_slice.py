@@ -1,0 +1,2 @@
+word = "1234567890"
+print(word[0:7:3]) #prints "147" as 0 here is start index 7 is end index and 3 is the skip value which means it will print every 3rd character from the string starting from index 0 to index 7.
