@@ -1,0 +1,8 @@
+#in operator is used to check if a specific character or substring exists in a string. It returns True if the character or substring is found, and False otherwise.
+txt = "The best things in life are free!"
+print("free" in txt)
+
+#if operator for strings is used to check if a specific character or substring exists in a string. It returns True if the character or substring is found, and False otherwise.
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
