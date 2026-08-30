@@ -6,3 +6,8 @@ print("free" in txt)
 txt = "The best things in life are free!"
 if "free" in txt:
   print("Yes, 'free' is present.")
+  
+text = "The best things in life are free!"
+print(text.find("in")) #find() method returns the index of the first occurrence of the specified value. If the value is not found, it returns -1.
+text="Ali"
+print(text.find("i")) #returns the index of the first occurrence of the specified value
