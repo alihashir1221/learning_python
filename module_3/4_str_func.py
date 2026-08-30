@@ -20,4 +20,3 @@ print(name.count("I"))
 name = "aLI HASHIR"
 print(name.capitalize())
 
-#
