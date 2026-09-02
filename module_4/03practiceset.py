@@ -1,4 +1,5 @@
 #WAP to sum a list within 4 numbers 
+#using user input sum
 num = []
 a = int(input("Enter 1st number: "))
 num.append(a)
@@ -10,7 +11,7 @@ d = int(input("Enter 4th number: "))
 num.append(d)
 print(sum(num))
 
-#using user input sum
 
+#predefined list sum
 list = [1, 2, 3, 4]
 print(sum(list))
