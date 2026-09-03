@@ -3,7 +3,7 @@ marks = {
     "Ali": 87,
     "Tushar": 89,
     "Adnan": 90,
-    list: [1,2,3,4]
+    "list": [1,2,3,4]
 }
 #print(marks, type(marks))
-print(marks[list]) #accessing value using key
+print(marks["list"]) #accessing value using key
