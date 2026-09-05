@@ -1,0 +1,11 @@
+#WAP TO INPUT 8 NUMBERS FROM THE USER AND DISPLAY ALL THE UNIQUE NUMBER
+a = set()
+a.add(int(input("Enter First Number: ")))
+a.add(int(input("Enter Second Number: ")))
+a.add(int(input("Enter Third Number: ")))
+a.add(int(input("Enter Fourth Number: ")))
+a.add(int(input("Enter Fifth Number: ")))
+a.add(int(input("Enter Sixth Number: ")))
+a.add(int(input("Enter Seventh Number: ")))
+a.add(int(input("Enter Eighth Number: ")))
+print(a)
