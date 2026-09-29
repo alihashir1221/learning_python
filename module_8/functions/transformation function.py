@@ -3,4 +3,4 @@ def clean_email(email):
     #sara@gmail.com
     username , domain = cl_email.split("@")
     return {"username": username , "domain": domain}
-clean_email("sara@gmail.com")
+print(clean_email("sara@gmail.com"))
